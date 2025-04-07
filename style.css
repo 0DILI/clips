@@ -3,6 +3,7 @@
 body {
   font-family: "DM Sans", serif;
   overflow-x: hidden !important;
+  background-color: #fdf6ff;
 }
 
 .plus-jakarta {
@@ -15,7 +16,7 @@ body {
 
 /* SECTIONS */
 .sec_1 {
-  background: url("/assets/fe-sec1.png");
+  background: url("./assets/fe-sec1.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -130,6 +131,18 @@ body {
   background: var(
     --Linear,
     linear-gradient(93deg, #c71dff 0%, #b79eff 59.17%, #fa7596 112.3%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-grad3 {
+  background: linear-gradient(
+    93deg,
+    #f8df3e 38.26%,
+    #b79eff 53.24%,
+    #fa7596 66.7%
   );
   background-clip: text;
   -webkit-background-clip: text;
